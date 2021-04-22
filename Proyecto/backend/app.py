@@ -12,8 +12,6 @@ app = Flask(__name__)
 api = Api(app)
 
 
-
-
 class createGame(Resource):
     def get(self):
         # 
