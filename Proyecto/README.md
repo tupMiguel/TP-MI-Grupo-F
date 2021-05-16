@@ -1,20 +1,20 @@
-Proyecto: T.E.G. Cartas
-Grupo F - Turno TARDE
+# Proyecto: Juego inspirado en T.E.G
+# Grupo F - Turno TARDE
 
-Integrantes:
-Angeloni, Agustina
-Cabrera, Fernando
-Condori, Miguel
-Cortinez, Juan
-Gauna, Javier
-Scripponi, Lucía
+## Integrantes:
+- `Angeloni, Agustina`
+- `Cabrera, Fernando`
+- `Condori, Miguel`
+- `Cortinez, Juan`
+- `Gauna, Javier`
+- `Scripponi, Lucía`
 
-PROYECTO ELEGIDO
-Juego T.E.G. (Plan táctico y estratégico de la guerra) versión Cartas
-Se juega de a 4 jugadores.
-IDEA GENERAL El juego propone un conflicto bélico que tiene lugar sobre un mapa dividido en 40
-países. Para empezar, se reparten los 40 países entre los jugadores. Para cumplir con su objetivo
-(ocupar 21 países de los 40 o destruir otros bandos).
+## PROYECTO ELEGIDO
+Se plantea un videojuego inspirado en el famoso juego de mesa T.E.G.
+IDEA GENERAL El juego propone un conflicto bélico que tiene lugar sobre un mapa dividido de forma matricial. Para empezar,
+un jugador tendrá la posibilidad de editar el mapa en el cual se jugará, creando distintos sectores y conexiones, esto
+permitirá que cada partida sea diferente a la anterior y que se pueda variar la dinámica del mapa.
+
 
 Se plantea una arquitectura cliente - servidor donde los distintos clientes
 (jugadores) se conectan mediante sockets para poder tener datos de la
