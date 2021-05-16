@@ -1,3 +1,12 @@
+## Aclaración de desarrollo
+Para facilitar el desarrollo de este proyecto se han creado dos forks de este repositorio, uno para poder desarrollar el back-end
+y otro para desarrollar el front-end
+
+link del repositorio de back-end: [Link](https://github.com/Javiergauna147/GrupoF-TT)
+link del repositorio de front-end:
+
+una vez finalizado ambos desarrollos se combinaran los dos forks con el repositorio principal
+
 # Proyecto: Juego inspirado en T.E.G
 # Grupo F - Turno TARDE
 
