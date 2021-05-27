@@ -5,4 +5,6 @@ class EjemploModel:
     # @params
     # @return
     def saludar():
-        print('que onda pa');
+        print 'que onda pa'
+
+    saludar()
