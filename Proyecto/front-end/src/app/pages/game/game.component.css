@@ -1,0 +1,13 @@
+.matrizColumn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.matrizBox {
+    position: relative;
+    background-color: red;
+    border: 5px solid black;
+    width: 6vw;
+    height: 6vw;
+}
