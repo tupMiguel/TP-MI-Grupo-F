@@ -1,2 +1,0 @@
-class Tablero:
-    pass
