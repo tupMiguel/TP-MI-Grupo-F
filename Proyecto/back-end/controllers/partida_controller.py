@@ -2,7 +2,7 @@ from models.partida_model import PartidaModel
 from models import pais_model 
 from dataclasses import dataclass
 from services.baseDeDatos_service import BaseDeDatosService
-from globals import PAISES
+from .globals import PAISES
 import random
 
 @dataclass
@@ -20,8 +20,10 @@ class PartidaController:
 
     def colocarPaises(self, matriz):
         """
-        matriz: array bidimensional, llena de 0 y 1
-        return: array bidimensional, reemplazando cada 1 por un objeto PaisModel
+        Introduce objetos PaisModel dentro de una matriz
+
+        matriz: array bidimensional, contendra enteros 0 y 1
+        return: array bidimensional, reemplaza cada entero 1 por un objeto PaisModel con un nombre en su propiedad
         """
         contador = 0
         for fila in matriz:
@@ -33,7 +35,9 @@ class PartidaController:
     
     def mezclarPaises(self, lista_Paises):
         """
-        lista_Paises: lista[str], array de strings conteniendo nombres de paises
+        Desordena los elementos de manera aleatoria de un array
+
+        lista_Paises: list[str], array de strings conteniendo nombres de paises
         return: None
         """
         random.shuffle(lista_Paises)
