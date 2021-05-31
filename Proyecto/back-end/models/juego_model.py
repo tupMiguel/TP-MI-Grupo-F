@@ -90,3 +90,4 @@ class Juego:
     print "Paises asignados: "
     for n in j4.lista_paises:
         print n    
+
