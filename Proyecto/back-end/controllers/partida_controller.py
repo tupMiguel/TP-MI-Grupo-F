@@ -26,10 +26,10 @@ class PartidaController:
         return: array bidimensional, reemplaza cada entero 1 por un objeto PaisModel con un nombre en su propiedad
         """
         contador = 0
-        for fila in matriz:
-            for columna in matriz:
-                if matriz[fila][columna] == 1:
-                    matriz[fila][columna] = pais_model.PaisModel(PAISES[contador],"","")
+        for idxf, fila in enumerate(matriz):
+            for idxc, columna in enumerate(matriz):
+                if matriz[idxf][idxc] == 1:
+                    matriz[idxf][idxc] = pais_model.PaisModel(PAISES[contador],"","")
                     contador += 1 
         return matriz
     
