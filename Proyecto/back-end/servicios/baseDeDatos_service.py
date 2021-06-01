@@ -4,7 +4,15 @@ import os
 
 @dataclass
 class BaseDeDatosService:
-
+ 
+    __instancia=None
+    
+    #Singleton
+    def __new__(cls):
+        if cls.__instancia is None:
+           cls.__instancia= object.__new__(cls)
+        return cls.__instancia
+    
     filePath = os.path.relpath('partidas.txt')
     file = open(filePath, "a")
 
@@ -17,3 +25,12 @@ class BaseDeDatosService:
         self.file.write(data + "\n")
         self.file.close()
         return
+   
+    file = open(filePath, "r")
+
+     #Lectura de String del archivo
+    def read_data(self, num=0):
+        lineas=self.archivo.readlines()
+        frase=lineas[num]
+        print(frase)
+        return frase
