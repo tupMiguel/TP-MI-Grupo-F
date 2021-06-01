@@ -1,7 +1,7 @@
-class Pais():
+from dataclasses import dataclass
 
-    def __init__(self):
-        self.paises = {}  #diccionario que contiene el nombre del pais y con quienes limita
-    
-    
-
+@dataclass
+class PaisModel:
+    nombre: str;
+    duenioId: str;
+    agua: bool;
