@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AsapScheduler } from 'rxjs/internal/scheduler/AsapScheduler';
 
 @Component({
   selector: 'app-root',
