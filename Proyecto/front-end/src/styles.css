@@ -1,4 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-color: #f3f2ef;
+    background-image: url("assets/img/map.jpg");
+    background-size: cover;
+	background-position: top;
 }
