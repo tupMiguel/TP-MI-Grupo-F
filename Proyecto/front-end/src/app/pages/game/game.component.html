@@ -1,5 +1,5 @@
     <div class="matrizColumn">
         <div *ngFor="let fila of matriz">
-            <div *ngFor="let columna of fila" class="matrizBox"></div>
+            <div *ngFor="let columna of fila" class="matrizBox" [ngClass]="{'terreno': columna === 1, 'agua': columna === 0}"></div>
         </div>
     </div>

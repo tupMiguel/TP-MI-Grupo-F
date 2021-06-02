@@ -6,8 +6,15 @@
 
 .matrizBox {
     position: relative;
-    background-color: red;
-    border: 5px solid black;
-    width: 6vw;
-    height: 6vw;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 4vw;
+    height: 4vw;
+}
+
+.terreno {
+    background-image: url(../../../assets/img/terreno.svg);
+}
+
+.agua {
+    background-image: url(../../../assets/img/agua.svg);
 }
